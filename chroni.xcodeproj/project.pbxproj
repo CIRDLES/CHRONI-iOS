@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		10133B031C8A9A8000C5F718 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10133B021C8A9A8000C5F718 /* AppDelegate.swift */; };
+		10133B051C8A9A8000C5F718 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10133B041C8A9A8000C5F718 /* ViewController.swift */; };
+		10133B0B1C8A9A8000C5F718 /* chroni.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 10133B091C8A9A8000C5F718 /* chroni.xcdatamodeld */; };
+		10133B0D1C8A9A8000C5F718 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10133B0C1C8A9A8000C5F718 /* Assets.xcassets */; };
+		10133B101C8A9A8000C5F718 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10133B0E1C8A9A8000C5F718 /* LaunchScreen.storyboard */; };
+		10133B1B1C8A9A8000C5F718 /* chroniTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10133B1A1C8A9A8000C5F718 /* chroniTests.swift */; };
+		10133B261C8A9A8000C5F718 /* chroniUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10133B251C8A9A8000C5F718 /* chroniUITests.swift */; };
+		10133B361C8A9AE800C5F718 /* chroni_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 10133B351C8A9AE800C5F718 /* chroni_logo.png */; };
+		10133B381C8A9C3E00C5F718 /* Column.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10133B371C8A9C3E00C5F718 /* Column.swift */; };
+		10133B3A1C8A9C5F00C5F718 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10133B391C8A9C5F00C5F718 /* Category.swift */; };
+		10133B3C1C8A9C6B00C5F718 /* Fraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10133B3B1C8A9C6B00C5F718 /* Fraction.swift */; };
+		101395411C976CCF00B590F3 /* ValueModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101395401C976CCF00B590F3 /* ValueModel.swift */; };
+		101395431C97727300B590F3 /* MapTuple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101395421C97727300B590F3 /* MapTuple.swift */; };
+		101395451C97733C00B590F3 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101395441C97733C00B590F3 /* Image.swift */; };
+		101395471C97754800B590F3 /* Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101395461C97754800B590F3 /* Numbers.swift */; };
+		101395491C9780C000B590F3 /* AliquotParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101395481C9780C000B590F3 /* AliquotParser.swift */; };
+		106634F31C8B7ED20098A1C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 106634F21C8B7ED20098A1C2 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		10133B171C8A9A8000C5F718 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10133AF71C8A9A8000C5F718 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10133AFE1C8A9A8000C5F718;
+			remoteInfo = chroni;
+		};
+		10133B221C8A9A8000C5F718 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10133AF71C8A9A8000C5F718 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10133AFE1C8A9A8000C5F718;
+			remoteInfo = chroni;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10133AFF1C8A9A8000C5F718 /* chroni.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chroni.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		10133B021C8A9A8000C5F718 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		10133B041C8A9A8000C5F718 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		10133B0A1C8A9A8000C5F718 /* chroni.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = chroni.xcdatamodel; sourceTree = "<group>"; };
+		10133B0C1C8A9A8000C5F718 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		10133B0F1C8A9A8000C5F718 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		10133B111C8A9A8000C5F718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10133B161C8A9A8000C5F718 /* chroniTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chroniTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10133B1A1C8A9A8000C5F718 /* chroniTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chroniTests.swift; sourceTree = "<group>"; };
+		10133B1C1C8A9A8000C5F718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10133B211C8A9A8000C5F718 /* chroniUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chroniUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		10133B251C8A9A8000C5F718 /* chroniUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chroniUITests.swift; sourceTree = "<group>"; };
+		10133B271C8A9A8000C5F718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10133B351C8A9AE800C5F718 /* chroni_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chroni_logo.png; sourceTree = "<group>"; };
+		10133B371C8A9C3E00C5F718 /* Column.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Column.swift; sourceTree = "<group>"; };
+		10133B391C8A9C5F00C5F718 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		10133B3B1C8A9C6B00C5F718 /* Fraction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fraction.swift; sourceTree = "<group>"; };
+		101395401C976CCF00B590F3 /* ValueModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValueModel.swift; sourceTree = "<group>"; };
+		101395421C97727300B590F3 /* MapTuple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapTuple.swift; sourceTree = "<group>"; };
+		101395441C97733C00B590F3 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		101395461C97754800B590F3 /* Numbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Numbers.swift; sourceTree = "<group>"; };
+		101395481C9780C000B590F3 /* AliquotParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AliquotParser.swift; sourceTree = "<group>"; };
+		106634F21C8B7ED20098A1C2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10133AFC1C8A9A8000C5F718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10133B131C8A9A8000C5F718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10133B1E1C8A9A8000C5F718 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10133AF61C8A9A8000C5F718 = {
+			isa = PBXGroup;
+			children = (
+				10133B011C8A9A8000C5F718 /* chroni */,
+				10133B191C8A9A8000C5F718 /* chroniTests */,
+				10133B241C8A9A8000C5F718 /* chroniUITests */,
+				10133B001C8A9A8000C5F718 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10133B001C8A9A8000C5F718 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10133AFF1C8A9A8000C5F718 /* chroni.app */,
+				10133B161C8A9A8000C5F718 /* chroniTests.xctest */,
+				10133B211C8A9A8000C5F718 /* chroniUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		10133B011C8A9A8000C5F718 /* chroni */ = {
+			isa = PBXGroup;
+			children = (
+				10133B341C8A9AC500C5F718 /* swift */,
+				10133B331C8A9AAA00C5F718 /* images */,
+				10133B021C8A9A8000C5F718 /* AppDelegate.swift */,
+				10133B041C8A9A8000C5F718 /* ViewController.swift */,
+				106634F21C8B7ED20098A1C2 /* Main.storyboard */,
+				10133B0C1C8A9A8000C5F718 /* Assets.xcassets */,
+				10133B0E1C8A9A8000C5F718 /* LaunchScreen.storyboard */,
+				10133B111C8A9A8000C5F718 /* Info.plist */,
+				10133B091C8A9A8000C5F718 /* chroni.xcdatamodeld */,
+			);
+			path = chroni;
+			sourceTree = "<group>";
+		};
+		10133B191C8A9A8000C5F718 /* chroniTests */ = {
+			isa = PBXGroup;
+			children = (
+				10133B1A1C8A9A8000C5F718 /* chroniTests.swift */,
+				10133B1C1C8A9A8000C5F718 /* Info.plist */,
+			);
+			path = chroniTests;
+			sourceTree = "<group>";
+		};
+		10133B241C8A9A8000C5F718 /* chroniUITests */ = {
+			isa = PBXGroup;
+			children = (
+				10133B251C8A9A8000C5F718 /* chroniUITests.swift */,
+				10133B271C8A9A8000C5F718 /* Info.plist */,
+			);
+			path = chroniUITests;
+			sourceTree = "<group>";
+		};
+		10133B331C8A9AAA00C5F718 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				10133B351C8A9AE800C5F718 /* chroni_logo.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		10133B341C8A9AC500C5F718 /* swift */ = {
+			isa = PBXGroup;
+			children = (
+				10133B371C8A9C3E00C5F718 /* Column.swift */,
+				10133B391C8A9C5F00C5F718 /* Category.swift */,
+				10133B3B1C8A9C6B00C5F718 /* Fraction.swift */,
+				101395401C976CCF00B590F3 /* ValueModel.swift */,
+				101395421C97727300B590F3 /* MapTuple.swift */,
+				101395441C97733C00B590F3 /* Image.swift */,
+				101395461C97754800B590F3 /* Numbers.swift */,
+				101395481C9780C000B590F3 /* AliquotParser.swift */,
+			);
+			path = swift;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10133AFE1C8A9A8000C5F718 /* chroni */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10133B2A1C8A9A8000C5F718 /* Build configuration list for PBXNativeTarget "chroni" */;
+			buildPhases = (
+				10133AFB1C8A9A8000C5F718 /* Sources */,
+				10133AFC1C8A9A8000C5F718 /* Frameworks */,
+				10133AFD1C8A9A8000C5F718 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = chroni;
+			productName = chroni;
+			productReference = 10133AFF1C8A9A8000C5F718 /* chroni.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10133B151C8A9A8000C5F718 /* chroniTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10133B2D1C8A9A8000C5F718 /* Build configuration list for PBXNativeTarget "chroniTests" */;
+			buildPhases = (
+				10133B121C8A9A8000C5F718 /* Sources */,
+				10133B131C8A9A8000C5F718 /* Frameworks */,
+				10133B141C8A9A8000C5F718 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10133B181C8A9A8000C5F718 /* PBXTargetDependency */,
+			);
+			name = chroniTests;
+			productName = chroniTests;
+			productReference = 10133B161C8A9A8000C5F718 /* chroniTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		10133B201C8A9A8000C5F718 /* chroniUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10133B301C8A9A8000C5F718 /* Build configuration list for PBXNativeTarget "chroniUITests" */;
+			buildPhases = (
+				10133B1D1C8A9A8000C5F718 /* Sources */,
+				10133B1E1C8A9A8000C5F718 /* Frameworks */,
+				10133B1F1C8A9A8000C5F718 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10133B231C8A9A8000C5F718 /* PBXTargetDependency */,
+			);
+			name = chroniUITests;
+			productName = chroniUITests;
+			productReference = 10133B211C8A9A8000C5F718 /* chroniUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10133AF71C8A9A8000C5F718 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = CIRDLES;
+				TargetAttributes = {
+					10133AFE1C8A9A8000C5F718 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 6LJPGJL25D;
+					};
+					10133B151C8A9A8000C5F718 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 10133AFE1C8A9A8000C5F718;
+					};
+					10133B201C8A9A8000C5F718 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 10133AFE1C8A9A8000C5F718;
+					};
+				};
+			};
+			buildConfigurationList = 10133AFA1C8A9A8000C5F718 /* Build configuration list for PBXProject "chroni" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10133AF61C8A9A8000C5F718;
+			productRefGroup = 10133B001C8A9A8000C5F718 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10133AFE1C8A9A8000C5F718 /* chroni */,
+				10133B151C8A9A8000C5F718 /* chroniTests */,
+				10133B201C8A9A8000C5F718 /* chroniUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10133AFD1C8A9A8000C5F718 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10133B101C8A9A8000C5F718 /* LaunchScreen.storyboard in Resources */,
+				106634F31C8B7ED20098A1C2 /* Main.storyboard in Resources */,
+				10133B361C8A9AE800C5F718 /* chroni_logo.png in Resources */,
+				10133B0D1C8A9A8000C5F718 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10133B141C8A9A8000C5F718 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10133B1F1C8A9A8000C5F718 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10133AFB1C8A9A8000C5F718 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				101395491C9780C000B590F3 /* AliquotParser.swift in Sources */,
+				10133B0B1C8A9A8000C5F718 /* chroni.xcdatamodeld in Sources */,
+				101395451C97733C00B590F3 /* Image.swift in Sources */,
+				101395471C97754800B590F3 /* Numbers.swift in Sources */,
+				101395431C97727300B590F3 /* MapTuple.swift in Sources */,
+				10133B3A1C8A9C5F00C5F718 /* Category.swift in Sources */,
+				10133B381C8A9C3E00C5F718 /* Column.swift in Sources */,
+				10133B3C1C8A9C6B00C5F718 /* Fraction.swift in Sources */,
+				10133B051C8A9A8000C5F718 /* ViewController.swift in Sources */,
+				101395411C976CCF00B590F3 /* ValueModel.swift in Sources */,
+				10133B031C8A9A8000C5F718 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10133B121C8A9A8000C5F718 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10133B1B1C8A9A8000C5F718 /* chroniTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10133B1D1C8A9A8000C5F718 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10133B261C8A9A8000C5F718 /* chroniUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10133B181C8A9A8000C5F718 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10133AFE1C8A9A8000C5F718 /* chroni */;
+			targetProxy = 10133B171C8A9A8000C5F718 /* PBXContainerItemProxy */;
+		};
+		10133B231C8A9A8000C5F718 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10133AFE1C8A9A8000C5F718 /* chroni */;
+			targetProxy = 10133B221C8A9A8000C5F718 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		10133B0E1C8A9A8000C5F718 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				10133B0F1C8A9A8000C5F718 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		10133B281C8A9A8000C5F718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10133B291C8A9A8000C5F718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10133B2B1C8A9A8000C5F718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = chroni/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cirdles.chroni;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		10133B2C1C8A9A8000C5F718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = chroni/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cirdles.chroni;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		10133B2E1C8A9A8000C5F718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = chroniTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cirdles.chroniTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chroni.app/chroni";
+			};
+			name = Debug;
+		};
+		10133B2F1C8A9A8000C5F718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = chroniTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cirdles.chroniTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chroni.app/chroni";
+			};
+			name = Release;
+		};
+		10133B311C8A9A8000C5F718 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = chroniUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cirdles.chroniUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = chroni;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		10133B321C8A9A8000C5F718 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = chroniUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cirdles.chroniUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = chroni;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10133AFA1C8A9A8000C5F718 /* Build configuration list for PBXProject "chroni" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10133B281C8A9A8000C5F718 /* Debug */,
+				10133B291C8A9A8000C5F718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10133B2A1C8A9A8000C5F718 /* Build configuration list for PBXNativeTarget "chroni" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10133B2B1C8A9A8000C5F718 /* Debug */,
+				10133B2C1C8A9A8000C5F718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10133B2D1C8A9A8000C5F718 /* Build configuration list for PBXNativeTarget "chroniTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10133B2E1C8A9A8000C5F718 /* Debug */,
+				10133B2F1C8A9A8000C5F718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10133B301C8A9A8000C5F718 /* Build configuration list for PBXNativeTarget "chroniUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10133B311C8A9A8000C5F718 /* Debug */,
+				10133B321C8A9A8000C5F718 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		10133B091C8A9A8000C5F718 /* chroni.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				10133B0A1C8A9A8000C5F718 /* chroni.xcdatamodel */,
+			);
+			currentVersion = 10133B0A1C8A9A8000C5F718 /* chroni.xcdatamodel */;
+			path = chroni.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 10133AF71C8A9A8000C5F718 /* Project object */;
+}
