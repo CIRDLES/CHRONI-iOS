@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		10133B031C8A9A8000C5F718 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10133B021C8A9A8000C5F718 /* AppDelegate.swift */; };
-		10133B051C8A9A8000C5F718 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10133B041C8A9A8000C5F718 /* ViewController.swift */; };
 		10133B0B1C8A9A8000C5F718 /* chroni.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 10133B091C8A9A8000C5F718 /* chroni.xcdatamodeld */; };
 		10133B0D1C8A9A8000C5F718 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10133B0C1C8A9A8000C5F718 /* Assets.xcassets */; };
 		10133B101C8A9A8000C5F718 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10133B0E1C8A9A8000C5F718 /* LaunchScreen.storyboard */; };
@@ -23,6 +22,11 @@
 		101395451C97733C00B590F3 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101395441C97733C00B590F3 /* Image.swift */; };
 		101395471C97754800B590F3 /* Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101395461C97754800B590F3 /* Numbers.swift */; };
 		101395491C9780C000B590F3 /* AliquotParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101395481C9780C000B590F3 /* AliquotParser.swift */; };
+		104B70EB1CEFA76C00044C03 /* ReportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104B70EA1CEFA76C00044C03 /* ReportsViewController.swift */; };
+		104B70ED1CEFA77B00044C03 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104B70EC1CEFA77B00044C03 /* ProfileViewController.swift */; };
+		104B70EF1CEFA78700044C03 /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104B70EE1CEFA78700044C03 /* HistoryTableViewController.swift */; };
+		104B70F31CEFA7A100044C03 /* circle-user-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 104B70F11CEFA7A100044C03 /* circle-user-7.png */; };
+		104B70F41CEFA7A100044C03 /* file-document-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 104B70F21CEFA7A100044C03 /* file-document-7.png */; };
 		106634F31C8B7ED20098A1C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 106634F21C8B7ED20098A1C2 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -46,7 +50,6 @@
 /* Begin PBXFileReference section */
 		10133AFF1C8A9A8000C5F718 /* chroni.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chroni.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10133B021C8A9A8000C5F718 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		10133B041C8A9A8000C5F718 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		10133B0A1C8A9A8000C5F718 /* chroni.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = chroni.xcdatamodel; sourceTree = "<group>"; };
 		10133B0C1C8A9A8000C5F718 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10133B0F1C8A9A8000C5F718 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -66,6 +69,11 @@
 		101395441C97733C00B590F3 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		101395461C97754800B590F3 /* Numbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Numbers.swift; sourceTree = "<group>"; };
 		101395481C9780C000B590F3 /* AliquotParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AliquotParser.swift; sourceTree = "<group>"; };
+		104B70EA1CEFA76C00044C03 /* ReportsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportsViewController.swift; sourceTree = "<group>"; };
+		104B70EC1CEFA77B00044C03 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		104B70EE1CEFA78700044C03 /* HistoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
+		104B70F11CEFA7A100044C03 /* circle-user-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circle-user-7.png"; sourceTree = "<group>"; };
+		104B70F21CEFA7A100044C03 /* file-document-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "file-document-7.png"; sourceTree = "<group>"; };
 		106634F21C8B7ED20098A1C2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -120,11 +128,13 @@
 				10133B341C8A9AC500C5F718 /* swift */,
 				10133B331C8A9AAA00C5F718 /* images */,
 				10133B021C8A9A8000C5F718 /* AppDelegate.swift */,
-				10133B041C8A9A8000C5F718 /* ViewController.swift */,
 				106634F21C8B7ED20098A1C2 /* Main.storyboard */,
 				10133B0C1C8A9A8000C5F718 /* Assets.xcassets */,
 				10133B0E1C8A9A8000C5F718 /* LaunchScreen.storyboard */,
 				10133B111C8A9A8000C5F718 /* Info.plist */,
+				104B70EA1CEFA76C00044C03 /* ReportsViewController.swift */,
+				104B70EE1CEFA78700044C03 /* HistoryTableViewController.swift */,
+				104B70EC1CEFA77B00044C03 /* ProfileViewController.swift */,
 				10133B091C8A9A8000C5F718 /* chroni.xcdatamodeld */,
 			);
 			path = chroni;
@@ -151,6 +161,7 @@
 		10133B331C8A9AAA00C5F718 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				104B70F01CEFA79800044C03 /* icons */,
 				10133B351C8A9AE800C5F718 /* chroni_logo.png */,
 			);
 			path = images;
@@ -169,6 +180,15 @@
 				101395481C9780C000B590F3 /* AliquotParser.swift */,
 			);
 			path = swift;
+			sourceTree = "<group>";
+		};
+		104B70F01CEFA79800044C03 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				104B70F11CEFA7A100044C03 /* circle-user-7.png */,
+				104B70F21CEFA7A100044C03 /* file-document-7.png */,
+			);
+			name = icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,9 +296,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				104B70F31CEFA7A100044C03 /* circle-user-7.png in Resources */,
 				10133B101C8A9A8000C5F718 /* LaunchScreen.storyboard in Resources */,
 				106634F31C8B7ED20098A1C2 /* Main.storyboard in Resources */,
 				10133B361C8A9AE800C5F718 /* chroni_logo.png in Resources */,
+				104B70F41CEFA7A100044C03 /* file-document-7.png in Resources */,
 				10133B0D1C8A9A8000C5F718 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,13 +330,15 @@
 				10133B0B1C8A9A8000C5F718 /* chroni.xcdatamodeld in Sources */,
 				101395451C97733C00B590F3 /* Image.swift in Sources */,
 				101395471C97754800B590F3 /* Numbers.swift in Sources */,
+				104B70EB1CEFA76C00044C03 /* ReportsViewController.swift in Sources */,
 				101395431C97727300B590F3 /* MapTuple.swift in Sources */,
+				104B70ED1CEFA77B00044C03 /* ProfileViewController.swift in Sources */,
 				10133B3A1C8A9C5F00C5F718 /* Category.swift in Sources */,
 				10133B381C8A9C3E00C5F718 /* Column.swift in Sources */,
 				10133B3C1C8A9C6B00C5F718 /* Fraction.swift in Sources */,
-				10133B051C8A9A8000C5F718 /* ViewController.swift in Sources */,
 				101395411C976CCF00B590F3 /* ValueModel.swift in Sources */,
 				10133B031C8A9A8000C5F718 /* AppDelegate.swift in Sources */,
+				104B70EF1CEFA78700044C03 /* HistoryTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
