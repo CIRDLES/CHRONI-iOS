@@ -11,7 +11,6 @@
 		10133B0B1C8A9A8000C5F718 /* chroni.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 10133B091C8A9A8000C5F718 /* chroni.xcdatamodeld */; };
 		10133B0D1C8A9A8000C5F718 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10133B0C1C8A9A8000C5F718 /* Assets.xcassets */; };
 		10133B101C8A9A8000C5F718 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10133B0E1C8A9A8000C5F718 /* LaunchScreen.storyboard */; };
-		10133B1B1C8A9A8000C5F718 /* chroniTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10133B1A1C8A9A8000C5F718 /* chroniTests.swift */; };
 		10133B261C8A9A8000C5F718 /* chroniUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10133B251C8A9A8000C5F718 /* chroniUITests.swift */; };
 		10133B361C8A9AE800C5F718 /* chroni_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 10133B351C8A9AE800C5F718 /* chroni_logo.png */; };
 		10133B381C8A9C3E00C5F718 /* Column.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10133B371C8A9C3E00C5F718 /* Column.swift */; };
@@ -28,6 +27,7 @@
 		104B70F31CEFA7A100044C03 /* circle-user-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 104B70F11CEFA7A100044C03 /* circle-user-7.png */; };
 		104B70F41CEFA7A100044C03 /* file-document-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 104B70F21CEFA7A100044C03 /* file-document-7.png */; };
 		106634F31C8B7ED20098A1C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 106634F21C8B7ED20098A1C2 /* Main.storyboard */; };
+		8EBEA87A1CF3C5F80071EB66 /* FileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBEA8791CF3C5F80071EB66 /* FileTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,7 +55,6 @@
 		10133B0F1C8A9A8000C5F718 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10133B111C8A9A8000C5F718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10133B161C8A9A8000C5F718 /* chroniTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chroniTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		10133B1A1C8A9A8000C5F718 /* chroniTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chroniTests.swift; sourceTree = "<group>"; };
 		10133B1C1C8A9A8000C5F718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10133B211C8A9A8000C5F718 /* chroniUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chroniUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10133B251C8A9A8000C5F718 /* chroniUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chroniUITests.swift; sourceTree = "<group>"; };
@@ -75,6 +74,7 @@
 		104B70F11CEFA7A100044C03 /* circle-user-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circle-user-7.png"; sourceTree = "<group>"; };
 		104B70F21CEFA7A100044C03 /* file-document-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "file-document-7.png"; sourceTree = "<group>"; };
 		106634F21C8B7ED20098A1C2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		8EBEA8791CF3C5F80071EB66 /* FileTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,8 +143,8 @@
 		10133B191C8A9A8000C5F718 /* chroniTests */ = {
 			isa = PBXGroup;
 			children = (
-				10133B1A1C8A9A8000C5F718 /* chroniTests.swift */,
 				10133B1C1C8A9A8000C5F718 /* Info.plist */,
+				8EBEA8791CF3C5F80071EB66 /* FileTests.swift */,
 			);
 			path = chroniTests;
 			sourceTree = "<group>";
@@ -253,7 +253,7 @@
 		10133AF71C8A9A8000C5F718 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
+				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = CIRDLES;
 				TargetAttributes = {
@@ -346,7 +346,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10133B1B1C8A9A8000C5F718 /* chroniTests.swift in Sources */,
+				8EBEA87A1CF3C5F80071EB66 /* FileTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,10 +500,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = chroniTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cirdles.chroniTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/chroni.app/chroni";
 			};
 			name = Debug;
@@ -512,6 +514,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = chroniTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cirdles.chroniTests;
