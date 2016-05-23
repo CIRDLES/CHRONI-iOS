@@ -67,7 +67,7 @@ public class Column {
         return self.uncertaintyColumn
     }
     
-    public func getMethodNAme() -> String {
+    public func getMethodName() -> String {
         return self.methodName
     }
     
