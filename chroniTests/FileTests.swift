@@ -7,6 +7,7 @@
 //
 
 import XCTest
+@testable import chroni
 
 class FileTests: XCTestCase {
 
@@ -21,31 +22,94 @@ class FileTests: XCTestCase {
     }
     
     //TODO
-    func appStartDownloadTest() {
+    func testAppStartDownload() {
         // does default aliquot download?
         // does default reportsettings 1 and 2 download?
     }
     
     //TODO
-    func geochronConnectionTest() {
+    func testGeochronConnection() {
         // is the app connected to the geochron portal?
     }
     
-    func correctUnitsTest() {
+    func testCorrectUnits() {
         // is it using the correct units?
     }
     
-    func correctSignificantDigitsTest() {
+    func testCorrectSignificantDigits() {
         // is it using the correct sigfigs?
     }
     
-    
-    
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measureBlock {
-            // Put the code you want to measure the time of here.
-        }
+    //Fraction
+    func testCorrectFractionID() {
+        // is the fraction ID returned?
     }
+    
+    func testGetValueModelMap() {
+        // is the valueModelMap returned with the correc values?
+    }
+    
+    //Column
+    func testColumnToString(){
+        // does the toString method return the correct values?
+    }
+    
+    //Category
+    func testGetCategoryColumnMap() {
+        // does the SortedMap get returned correctly?
+    }
+    
+    func testCategoryToString() {
+        // does the toString method return the correct values?
+    }
+    
+    //ValueModel
+    func testValueModelToString() {
+        // does the toString method return the correct values?
+    }
+    
+    //Number
+    func testGrams() {
+        // do unit conversions to grams work?
+    }
+    
+    func testConcentrations() {
+        // do concentration conversions work?
+    }
+    
+    func testYears() {
+        // do conversions to years work?
+    }
+    
+    func testGetUnitConversionsMap() {
+        //
+    }
+    
+    //AliquotParser
+    func testBeginParsing() {
+        // does the beginParsing method run and return a MapTuple?
+    }
+    
+    func testGetAliquotName() {
+        // does the getAliquotName method return the correct name?
+    }
+    
+    func testParser1() {
+        // tests first parser method
+    }
+    
+    func testParser2() {
+        // tests second parser method
+    }
+    
+    func testParser3() {
+        // tests third parser method
+    }
+    
+    func testParser4() {
+        // tests fourth parser method
+    }
+
+    
 
 }
