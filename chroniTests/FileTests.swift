@@ -195,7 +195,7 @@ class FileTests: XCTestCase {
     }
     
     func testCorrectFractionMap() {
-        // does the parser govr the fractionMap image map the correct value?
+        // does the parser give the fractionMap image map the correct value?
     }
     
     func testGetAliquotName() {
