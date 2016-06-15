@@ -128,11 +128,8 @@
 				10133B341C8A9AC500C5F718 /* swift */,
 				10133B331C8A9AAA00C5F718 /* images */,
 				10133B021C8A9A8000C5F718 /* AppDelegate.swift */,
-<<<<<<< HEAD
-=======
 				10133B351C8A9AE800C5F718 /* chroni_logo.png */,
 				106634F21C8B7ED20098A1C2 /* Main.storyboard */,
->>>>>>> upstream/master
 				10133B0C1C8A9A8000C5F718 /* Assets.xcassets */,
 				1036B3221D0B0A2A00A6F637 /* Main.storyboard */,
 				10133B0E1C8A9A8000C5F718 /* LaunchScreen.storyboard */,
