@@ -59,7 +59,7 @@
 		10133B211C8A9A8000C5F718 /* chroniUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chroniUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10133B251C8A9A8000C5F718 /* chroniUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chroniUITests.swift; sourceTree = "<group>"; };
 		10133B271C8A9A8000C5F718 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		10133B351C8A9AE800C5F718 /* chroni_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chroni_logo.png; sourceTree = "<group>"; };
+		10133B351C8A9AE800C5F718 /* chroni_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = chroni_logo.png; path = images/chroni_logo.png; sourceTree = "<group>"; };
 		10133B371C8A9C3E00C5F718 /* Column.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Column.swift; sourceTree = "<group>"; };
 		10133B391C8A9C5F00C5F718 /* Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		10133B3B1C8A9C6B00C5F718 /* Fraction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fraction.swift; sourceTree = "<group>"; };
@@ -128,6 +128,11 @@
 				10133B341C8A9AC500C5F718 /* swift */,
 				10133B331C8A9AAA00C5F718 /* images */,
 				10133B021C8A9A8000C5F718 /* AppDelegate.swift */,
+<<<<<<< HEAD
+=======
+				10133B351C8A9AE800C5F718 /* chroni_logo.png */,
+				106634F21C8B7ED20098A1C2 /* Main.storyboard */,
+>>>>>>> upstream/master
 				10133B0C1C8A9A8000C5F718 /* Assets.xcassets */,
 				1036B3221D0B0A2A00A6F637 /* Main.storyboard */,
 				10133B0E1C8A9A8000C5F718 /* LaunchScreen.storyboard */,
@@ -162,7 +167,6 @@
 			isa = PBXGroup;
 			children = (
 				104B70F01CEFA79800044C03 /* icons */,
-				10133B351C8A9AE800C5F718 /* chroni_logo.png */,
 			);
 			path = images;
 			sourceTree = "<group>";
