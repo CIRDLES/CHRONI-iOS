@@ -21,12 +21,12 @@
 		101395451C97733C00B590F3 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101395441C97733C00B590F3 /* Image.swift */; };
 		101395471C97754800B590F3 /* Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101395461C97754800B590F3 /* Numbers.swift */; };
 		101395491C9780C000B590F3 /* AliquotParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101395481C9780C000B590F3 /* AliquotParser.swift */; };
+		1036B3231D0B0A2A00A6F637 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1036B3221D0B0A2A00A6F637 /* Main.storyboard */; };
 		104B70EB1CEFA76C00044C03 /* ReportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104B70EA1CEFA76C00044C03 /* ReportsViewController.swift */; };
 		104B70ED1CEFA77B00044C03 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104B70EC1CEFA77B00044C03 /* ProfileViewController.swift */; };
 		104B70EF1CEFA78700044C03 /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104B70EE1CEFA78700044C03 /* HistoryTableViewController.swift */; };
 		104B70F31CEFA7A100044C03 /* circle-user-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 104B70F11CEFA7A100044C03 /* circle-user-7.png */; };
 		104B70F41CEFA7A100044C03 /* file-document-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 104B70F21CEFA7A100044C03 /* file-document-7.png */; };
-		106634F31C8B7ED20098A1C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 106634F21C8B7ED20098A1C2 /* Main.storyboard */; };
 		8EBEA87A1CF3C5F80071EB66 /* FileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBEA8791CF3C5F80071EB66 /* FileTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -68,12 +68,12 @@
 		101395441C97733C00B590F3 /* Image.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		101395461C97754800B590F3 /* Numbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Numbers.swift; sourceTree = "<group>"; };
 		101395481C9780C000B590F3 /* AliquotParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AliquotParser.swift; sourceTree = "<group>"; };
+		1036B3221D0B0A2A00A6F637 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		104B70EA1CEFA76C00044C03 /* ReportsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportsViewController.swift; sourceTree = "<group>"; };
 		104B70EC1CEFA77B00044C03 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		104B70EE1CEFA78700044C03 /* HistoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
 		104B70F11CEFA7A100044C03 /* circle-user-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circle-user-7.png"; sourceTree = "<group>"; };
 		104B70F21CEFA7A100044C03 /* file-document-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "file-document-7.png"; sourceTree = "<group>"; };
-		106634F21C8B7ED20098A1C2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		8EBEA8791CF3C5F80071EB66 /* FileTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -128,8 +128,8 @@
 				10133B341C8A9AC500C5F718 /* swift */,
 				10133B331C8A9AAA00C5F718 /* images */,
 				10133B021C8A9A8000C5F718 /* AppDelegate.swift */,
-				106634F21C8B7ED20098A1C2 /* Main.storyboard */,
 				10133B0C1C8A9A8000C5F718 /* Assets.xcassets */,
+				1036B3221D0B0A2A00A6F637 /* Main.storyboard */,
 				10133B0E1C8A9A8000C5F718 /* LaunchScreen.storyboard */,
 				10133B111C8A9A8000C5F718 /* Info.plist */,
 				104B70EA1CEFA76C00044C03 /* ReportsViewController.swift */,
@@ -298,8 +298,8 @@
 			files = (
 				104B70F31CEFA7A100044C03 /* circle-user-7.png in Resources */,
 				10133B101C8A9A8000C5F718 /* LaunchScreen.storyboard in Resources */,
-				106634F31C8B7ED20098A1C2 /* Main.storyboard in Resources */,
 				10133B361C8A9AE800C5F718 /* chroni_logo.png in Resources */,
+				1036B3231D0B0A2A00A6F637 /* Main.storyboard in Resources */,
 				104B70F41CEFA7A100044C03 /* file-document-7.png in Resources */,
 				10133B0D1C8A9A8000C5F718 /* Assets.xcassets in Resources */,
 			);
