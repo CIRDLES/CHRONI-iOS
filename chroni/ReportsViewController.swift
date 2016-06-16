@@ -8,10 +8,11 @@
 
 import UIKit
 
-class ReportsViewController: UIViewController,UIPickerViewDelegate, UIPickerViewDataSource {
+class ReportsViewController: UIViewController {
     
-    @IBOutlet var picker: UIPickerView!
+    
     @IBOutlet var titleText: UILabel!
+    @IBOutlet var fileText: UILabel!
     
     var pickerData: [String] = [String]()
 
@@ -19,10 +20,6 @@ class ReportsViewController: UIViewController,UIPickerViewDelegate, UIPickerView
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        self.picker.delegate = self
-        self.picker.dataSource = self
-        
-        pickerData = ["1","2","3","4","5"]
     }
 
     override func didReceiveMemoryWarning() {
@@ -30,12 +27,13 @@ class ReportsViewController: UIViewController,UIPickerViewDelegate, UIPickerView
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func segmentToggle(sender: UISegmentedControl) {
+    @IBAction func toggle(sender: UISegmentedControl) {
         if (sender.selectedSegmentIndex == 0) {
             self.titleText.text = "Aliquot"
-            
+            self.fileText.text = "Aliquot"
         } else {
             self.titleText.text = "Report Settings"
+            self.fileText.text = "Report Settings"
         }
     }
     
@@ -53,9 +51,6 @@ class ReportsViewController: UIViewController,UIPickerViewDelegate, UIPickerView
     func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         return pickerData[row]
     }
-    
-    
-    
 
 }
 
