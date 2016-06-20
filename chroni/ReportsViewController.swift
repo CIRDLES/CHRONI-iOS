@@ -8,21 +8,20 @@
 
 import UIKit
 
-class ReportsViewController: UIViewController,UIPickerViewDelegate, UIPickerViewDataSource {
+class ReportsViewController: UIViewController, FileDelegate {
     
-    @IBOutlet var picker: UIPickerView!
+    
     @IBOutlet var titleText: UILabel!
+    @IBOutlet var fileText: UILabel!
+    @IBOutlet var fileTextField: UITextField!
     
-    var pickerData: [String] = [String]()
+    // TODO: set this to default file
+    var chosenFile: File = File(name: "", path: "")
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        self.picker.delegate = self
-        self.picker.dataSource = self
-        
-        pickerData = ["1","2","3","4","5"]
     }
 
     override func didReceiveMemoryWarning() {
@@ -30,32 +29,32 @@ class ReportsViewController: UIViewController,UIPickerViewDelegate, UIPickerView
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func segmentToggle(sender: UISegmentedControl) {
-        if (sender.selectedSegmentIndex == 0) {
-            self.titleText.text = "Aliquot"
+    // Handles what happens when a file has been chosen from delegate (FilePickerViewController)
+    func chooseFile(file: File) {
+        // TODO: tell if file is an Aliquot or Report Settings file
+        chosenFile = file
+        
+        fileTextField.text = chosenFile.getFileName()
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "aliquotToFilePickerSegue" {
+            let filePcikerNav = segue.destinationViewController.childViewControllers[0] as! FilePickerViewController
             
-        } else {
-            self.titleText.text = "Report Settings"
+            filePcikerNav.delegate = self
         }
     }
     
-    // The number of columns of data
-    func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
-        return 1
+    
+    @IBAction func toggle(sender: UISegmentedControl) {
+        if (sender.selectedSegmentIndex == 0) {
+            self.titleText.text = "Aliquot"
+            self.fileText.text = "Aliquot"
+        } else {
+            self.titleText.text = "Report Settings"
+            self.fileText.text = "Report Settings"
+        }
     }
-    
-    // The number of rows of data
-    func pickerView(pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
-        return pickerData.count
-    }
-    
-    // The data to return for the row and component (column) that's being passed in
-    func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
-        return pickerData[row]
-    }
-    
-    
-    
 
 }
 

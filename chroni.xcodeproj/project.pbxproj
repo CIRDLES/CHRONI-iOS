@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		10078A8A1D143E0E00F12002 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10078A891D143E0E00F12002 /* File.swift */; };
+		10078A901D14903900F12002 /* FolderPopoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10078A8F1D14903900F12002 /* FolderPopoverViewController.swift */; };
 		10133B031C8A9A8000C5F718 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10133B021C8A9A8000C5F718 /* AppDelegate.swift */; };
 		10133B0B1C8A9A8000C5F718 /* chroni.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 10133B091C8A9A8000C5F718 /* chroni.xcdatamodeld */; };
 		10133B0D1C8A9A8000C5F718 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10133B0C1C8A9A8000C5F718 /* Assets.xcassets */; };
@@ -22,11 +24,16 @@
 		101395471C97754800B590F3 /* Numbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101395461C97754800B590F3 /* Numbers.swift */; };
 		101395491C9780C000B590F3 /* AliquotParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 101395481C9780C000B590F3 /* AliquotParser.swift */; };
 		1036B3231D0B0A2A00A6F637 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1036B3221D0B0A2A00A6F637 /* Main.storyboard */; };
-		104B70EB1CEFA76C00044C03 /* ReportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104B70EA1CEFA76C00044C03 /* ReportsViewController.swift */; };
-		104B70ED1CEFA77B00044C03 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104B70EC1CEFA77B00044C03 /* ProfileViewController.swift */; };
-		104B70EF1CEFA78700044C03 /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 104B70EE1CEFA78700044C03 /* HistoryTableViewController.swift */; };
 		104B70F31CEFA7A100044C03 /* circle-user-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 104B70F11CEFA7A100044C03 /* circle-user-7.png */; };
 		104B70F41CEFA7A100044C03 /* file-document-7.png in Resources */ = {isa = PBXBuildFile; fileRef = 104B70F21CEFA7A100044C03 /* file-document-7.png */; };
+		1050D7C81D159FE600C1E48D /* FileDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1050D7C71D159FE600C1E48D /* FileDelegate.swift */; };
+		1050D7CA1D15A01A00C1E48D /* AddFolderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1050D7C91D15A01A00C1E48D /* AddFolderDelegate.swift */; };
+		106190021D136A3A00A5598B /* FileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106190011D136A3900A5598B /* FileTableViewCell.swift */; };
+		106190041D1398E300A5598B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106190031D1398E300A5598B /* HomeViewController.swift */; };
+		10A0C2EA1D125C6E00BCCC46 /* HistoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A0C2E71D125C6E00BCCC46 /* HistoryTableViewController.swift */; };
+		10A0C2EB1D125C6E00BCCC46 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A0C2E81D125C6E00BCCC46 /* ProfileViewController.swift */; };
+		10A0C2EC1D125C6E00BCCC46 /* ReportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A0C2E91D125C6E00BCCC46 /* ReportsViewController.swift */; };
+		10A0C2F01D12667E00BCCC46 /* FilePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10A0C2EF1D12667E00BCCC46 /* FilePickerViewController.swift */; };
 		8EBEA87A1CF3C5F80071EB66 /* FileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EBEA8791CF3C5F80071EB66 /* FileTests.swift */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +55,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		10078A891D143E0E00F12002 /* File.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		10078A8F1D14903900F12002 /* FolderPopoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FolderPopoverViewController.swift; sourceTree = "<group>"; };
 		10133AFF1C8A9A8000C5F718 /* chroni.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chroni.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10133B021C8A9A8000C5F718 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10133B0A1C8A9A8000C5F718 /* chroni.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = chroni.xcdatamodel; sourceTree = "<group>"; };
@@ -69,11 +78,16 @@
 		101395461C97754800B590F3 /* Numbers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Numbers.swift; sourceTree = "<group>"; };
 		101395481C9780C000B590F3 /* AliquotParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AliquotParser.swift; sourceTree = "<group>"; };
 		1036B3221D0B0A2A00A6F637 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		104B70EA1CEFA76C00044C03 /* ReportsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportsViewController.swift; sourceTree = "<group>"; };
-		104B70EC1CEFA77B00044C03 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		104B70EE1CEFA78700044C03 /* HistoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
 		104B70F11CEFA7A100044C03 /* circle-user-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "circle-user-7.png"; sourceTree = "<group>"; };
 		104B70F21CEFA7A100044C03 /* file-document-7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "file-document-7.png"; sourceTree = "<group>"; };
+		1050D7C71D159FE600C1E48D /* FileDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileDelegate.swift; sourceTree = "<group>"; };
+		1050D7C91D15A01A00C1E48D /* AddFolderDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddFolderDelegate.swift; sourceTree = "<group>"; };
+		106190011D136A3900A5598B /* FileTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileTableViewCell.swift; sourceTree = "<group>"; };
+		106190031D1398E300A5598B /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		10A0C2E71D125C6E00BCCC46 /* HistoryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableViewController.swift; sourceTree = "<group>"; };
+		10A0C2E81D125C6E00BCCC46 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		10A0C2E91D125C6E00BCCC46 /* ReportsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReportsViewController.swift; sourceTree = "<group>"; };
+		10A0C2EF1D12667E00BCCC46 /* FilePickerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilePickerViewController.swift; sourceTree = "<group>"; };
 		8EBEA8791CF3C5F80071EB66 /* FileTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -125,18 +139,16 @@
 		10133B011C8A9A8000C5F718 /* chroni */ = {
 			isa = PBXGroup;
 			children = (
+				10A0C2E61D125C4400BCCC46 /* ViewControllers */,
 				10133B341C8A9AC500C5F718 /* swift */,
 				10133B331C8A9AAA00C5F718 /* images */,
 				10133B021C8A9A8000C5F718 /* AppDelegate.swift */,
 				10133B351C8A9AE800C5F718 /* chroni_logo.png */,
-				106634F21C8B7ED20098A1C2 /* Main.storyboard */,
 				10133B0C1C8A9A8000C5F718 /* Assets.xcassets */,
 				1036B3221D0B0A2A00A6F637 /* Main.storyboard */,
+				106190011D136A3900A5598B /* FileTableViewCell.swift */,
 				10133B0E1C8A9A8000C5F718 /* LaunchScreen.storyboard */,
 				10133B111C8A9A8000C5F718 /* Info.plist */,
-				104B70EA1CEFA76C00044C03 /* ReportsViewController.swift */,
-				104B70EE1CEFA78700044C03 /* HistoryTableViewController.swift */,
-				104B70EC1CEFA77B00044C03 /* ProfileViewController.swift */,
 				10133B091C8A9A8000C5F718 /* chroni.xcdatamodeld */,
 			);
 			path = chroni;
@@ -171,6 +183,7 @@
 		10133B341C8A9AC500C5F718 /* swift */ = {
 			isa = PBXGroup;
 			children = (
+				1050D7C61D159FB800C1E48D /* Protocols */,
 				10133B371C8A9C3E00C5F718 /* Column.swift */,
 				10133B391C8A9C5F00C5F718 /* Category.swift */,
 				10133B3B1C8A9C6B00C5F718 /* Fraction.swift */,
@@ -179,6 +192,7 @@
 				101395441C97733C00B590F3 /* Image.swift */,
 				101395461C97754800B590F3 /* Numbers.swift */,
 				101395481C9780C000B590F3 /* AliquotParser.swift */,
+				10078A891D143E0E00F12002 /* File.swift */,
 			);
 			path = swift;
 			sourceTree = "<group>";
@@ -190,6 +204,28 @@
 				104B70F21CEFA7A100044C03 /* file-document-7.png */,
 			);
 			name = icons;
+			sourceTree = "<group>";
+		};
+		1050D7C61D159FB800C1E48D /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				1050D7C71D159FE600C1E48D /* FileDelegate.swift */,
+				1050D7C91D15A01A00C1E48D /* AddFolderDelegate.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		10A0C2E61D125C4400BCCC46 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				10A0C2E71D125C6E00BCCC46 /* HistoryTableViewController.swift */,
+				10A0C2E81D125C6E00BCCC46 /* ProfileViewController.swift */,
+				10A0C2E91D125C6E00BCCC46 /* ReportsViewController.swift */,
+				10A0C2EF1D12667E00BCCC46 /* FilePickerViewController.swift */,
+				106190031D1398E300A5598B /* HomeViewController.swift */,
+				10078A8F1D14903900F12002 /* FolderPopoverViewController.swift */,
+			);
+			name = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -331,15 +367,22 @@
 				10133B0B1C8A9A8000C5F718 /* chroni.xcdatamodeld in Sources */,
 				101395451C97733C00B590F3 /* Image.swift in Sources */,
 				101395471C97754800B590F3 /* Numbers.swift in Sources */,
-				104B70EB1CEFA76C00044C03 /* ReportsViewController.swift in Sources */,
 				101395431C97727300B590F3 /* MapTuple.swift in Sources */,
-				104B70ED1CEFA77B00044C03 /* ProfileViewController.swift in Sources */,
 				10133B3A1C8A9C5F00C5F718 /* Category.swift in Sources */,
+				10078A901D14903900F12002 /* FolderPopoverViewController.swift in Sources */,
+				10A0C2EB1D125C6E00BCCC46 /* ProfileViewController.swift in Sources */,
+				106190021D136A3A00A5598B /* FileTableViewCell.swift in Sources */,
+				1050D7CA1D15A01A00C1E48D /* AddFolderDelegate.swift in Sources */,
 				10133B381C8A9C3E00C5F718 /* Column.swift in Sources */,
 				10133B3C1C8A9C6B00C5F718 /* Fraction.swift in Sources */,
+				1050D7C81D159FE600C1E48D /* FileDelegate.swift in Sources */,
+				10A0C2EC1D125C6E00BCCC46 /* ReportsViewController.swift in Sources */,
+				10078A8A1D143E0E00F12002 /* File.swift in Sources */,
+				106190041D1398E300A5598B /* HomeViewController.swift in Sources */,
+				10A0C2F01D12667E00BCCC46 /* FilePickerViewController.swift in Sources */,
+				10A0C2EA1D125C6E00BCCC46 /* HistoryTableViewController.swift in Sources */,
 				101395411C976CCF00B590F3 /* ValueModel.swift in Sources */,
 				10133B031C8A9A8000C5F718 /* AppDelegate.swift in Sources */,
-				104B70EF1CEFA78700044C03 /* HistoryTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
